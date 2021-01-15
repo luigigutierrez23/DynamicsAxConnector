@@ -82,9 +82,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Connected Services\AxConnectorServices\API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXResponse.datasource">
+    <Content Include="Connected Services\AxConnectorServices\API.AxConnectorServices.BerLgAxServicesExecuteRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Connected Services\AxConnectorServices\API.AxConnectorServices.BerLgAxServicesTestServiceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnector.wsdl" />
+    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnector.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnector1.wsdl" />
+    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnector1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnector2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnector3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnector4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnector5.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\AxConnectorServices\configuration91.svcinfo" />
     <None Include="Connected Services\AxConnectorServices\configuration.svcinfo" />
     <None Include="Connected Services\AxConnectorServices\Reference.svcmap">
@@ -109,26 +132,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnectorTest.wsdl" />
-    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnectorTest.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnectorTest1.wsdl" />
-    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnectorTest1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnectorTest2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnectorTest3.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnectorTest4.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\AxConnectorServices\BerLgServicesConnectorTest5.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

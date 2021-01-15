@@ -573,31 +573,39 @@ namespace API.AxConnectorServices {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://tempuri.org", ConfigurationName="AxConnectorServices.Ber_Lg_ServicesConnectorTest")]
-    public interface Ber_Lg_ServicesConnectorTest {
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://tempuri.org", ConfigurationName="AxConnectorServices.BerLgAxServices")]
+    public interface BerLgAxServices {
         
-        // CODEGEN: Generating message contract since the wrapper name (Ber_Lg_ServicesConnectorTestGetTextAXRequest) of message Ber_Lg_ServicesConnectorTestGetTextAXRequest does not match the default value (getTextAX)
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Ber_Lg_ServicesConnectorTest/getTextAX", ReplyAction="http://tempuri.org/Ber_Lg_ServicesConnectorTest/getTextAXResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(API.AxConnectorServices.AifFault), Action="http://tempuri.org/Ber_Lg_ServicesConnectorTest/getTextAXAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
-        API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXResponse getTextAX(API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXRequest request);
+        // CODEGEN: Generating message contract since the wrapper name (BerLgAxServicesTestServiceRequest) of message BerLgAxServicesTestServiceRequest does not match the default value (testService)
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/BerLgAxServices/testService", ReplyAction="http://tempuri.org/BerLgAxServices/testServiceResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(API.AxConnectorServices.AifFault), Action="http://tempuri.org/BerLgAxServices/testServiceAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        API.AxConnectorServices.BerLgAxServicesTestServiceResponse testService(API.AxConnectorServices.BerLgAxServicesTestServiceRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Ber_Lg_ServicesConnectorTest/getTextAX", ReplyAction="http://tempuri.org/Ber_Lg_ServicesConnectorTest/getTextAXResponse")]
-        System.Threading.Tasks.Task<API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXResponse> getTextAXAsync(API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXRequest request);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/BerLgAxServices/testService", ReplyAction="http://tempuri.org/BerLgAxServices/testServiceResponse")]
+        System.Threading.Tasks.Task<API.AxConnectorServices.BerLgAxServicesTestServiceResponse> testServiceAsync(API.AxConnectorServices.BerLgAxServicesTestServiceRequest request);
+        
+        // CODEGEN: Generating message contract since the wrapper name (BerLgAxServicesExecuteRequestRequest) of message BerLgAxServicesExecuteRequestRequest does not match the default value (executeRequest)
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/BerLgAxServices/executeRequest", ReplyAction="http://tempuri.org/BerLgAxServices/executeRequestResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(API.AxConnectorServices.AifFault), Action="http://tempuri.org/BerLgAxServices/executeRequestAifFaultFault", Name="AifFault", Namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault")]
+        API.AxConnectorServices.BerLgAxServicesExecuteRequestResponse executeRequest(API.AxConnectorServices.BerLgAxServicesExecuteRequestRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/BerLgAxServices/executeRequest", ReplyAction="http://tempuri.org/BerLgAxServices/executeRequestResponse")]
+        System.Threading.Tasks.Task<API.AxConnectorServices.BerLgAxServicesExecuteRequestResponse> executeRequestAsync(API.AxConnectorServices.BerLgAxServicesExecuteRequestRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="Ber_Lg_ServicesConnectorTestGetTextAXRequest", WrapperNamespace="http://tempuri.org", IsWrapped=true)]
-    public partial class Ber_Lg_ServicesConnectorTestGetTextAXRequest {
+    [System.ServiceModel.MessageContractAttribute(WrapperName="BerLgAxServicesTestServiceRequest", WrapperNamespace="http://tempuri.org", IsWrapped=true)]
+    public partial class BerLgAxServicesTestServiceRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
         public API.AxConnectorServices.CallContext CallContext;
         
-        public Ber_Lg_ServicesConnectorTestGetTextAXRequest() {
+        public BerLgAxServicesTestServiceRequest() {
         }
         
-        public Ber_Lg_ServicesConnectorTestGetTextAXRequest(API.AxConnectorServices.CallContext CallContext) {
+        public BerLgAxServicesTestServiceRequest(API.AxConnectorServices.CallContext CallContext) {
             this.CallContext = CallContext;
         }
     }
@@ -605,68 +613,125 @@ namespace API.AxConnectorServices {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="Ber_Lg_ServicesConnectorTestGetTextAXResponse", WrapperNamespace="http://tempuri.org", IsWrapped=true)]
-    public partial class Ber_Lg_ServicesConnectorTestGetTextAXResponse {
+    [System.ServiceModel.MessageContractAttribute(WrapperName="BerLgAxServicesTestServiceResponse", WrapperNamespace="http://tempuri.org", IsWrapped=true)]
+    public partial class BerLgAxServicesTestServiceResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org", Order=0)]
         public string response;
         
-        public Ber_Lg_ServicesConnectorTestGetTextAXResponse() {
+        public BerLgAxServicesTestServiceResponse() {
         }
         
-        public Ber_Lg_ServicesConnectorTestGetTextAXResponse(string response) {
+        public BerLgAxServicesTestServiceResponse(string response) {
+            this.response = response;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="BerLgAxServicesExecuteRequestRequest", WrapperNamespace="http://tempuri.org", IsWrapped=true)]
+    public partial class BerLgAxServicesExecuteRequestRequest {
+        
+        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts")]
+        public API.AxConnectorServices.CallContext CallContext;
+        
+        public BerLgAxServicesExecuteRequestRequest() {
+        }
+        
+        public BerLgAxServicesExecuteRequestRequest(API.AxConnectorServices.CallContext CallContext) {
+            this.CallContext = CallContext;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="BerLgAxServicesExecuteRequestResponse", WrapperNamespace="http://tempuri.org", IsWrapped=true)]
+    public partial class BerLgAxServicesExecuteRequestResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org", Order=0)]
+        public string response;
+        
+        public BerLgAxServicesExecuteRequestResponse() {
+        }
+        
+        public BerLgAxServicesExecuteRequestResponse(string response) {
             this.response = response;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface Ber_Lg_ServicesConnectorTestChannel : API.AxConnectorServices.Ber_Lg_ServicesConnectorTest, System.ServiceModel.IClientChannel {
+    public interface BerLgAxServicesChannel : API.AxConnectorServices.BerLgAxServices, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Ber_Lg_ServicesConnectorTestClient : System.ServiceModel.ClientBase<API.AxConnectorServices.Ber_Lg_ServicesConnectorTest>, API.AxConnectorServices.Ber_Lg_ServicesConnectorTest {
+    public partial class BerLgAxServicesClient : System.ServiceModel.ClientBase<API.AxConnectorServices.BerLgAxServices>, API.AxConnectorServices.BerLgAxServices {
         
-        public Ber_Lg_ServicesConnectorTestClient() {
+        public BerLgAxServicesClient() {
         }
         
-        public Ber_Lg_ServicesConnectorTestClient(string endpointConfigurationName) : 
+        public BerLgAxServicesClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public Ber_Lg_ServicesConnectorTestClient(string endpointConfigurationName, string remoteAddress) : 
+        public BerLgAxServicesClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public Ber_Lg_ServicesConnectorTestClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public BerLgAxServicesClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public Ber_Lg_ServicesConnectorTestClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public BerLgAxServicesClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXResponse API.AxConnectorServices.Ber_Lg_ServicesConnectorTest.getTextAX(API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXRequest request) {
-            return base.Channel.getTextAX(request);
+        API.AxConnectorServices.BerLgAxServicesTestServiceResponse API.AxConnectorServices.BerLgAxServices.testService(API.AxConnectorServices.BerLgAxServicesTestServiceRequest request) {
+            return base.Channel.testService(request);
         }
         
-        public string getTextAX(API.AxConnectorServices.CallContext CallContext) {
-            API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXRequest inValue = new API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXRequest();
+        public string testService(API.AxConnectorServices.CallContext CallContext) {
+            API.AxConnectorServices.BerLgAxServicesTestServiceRequest inValue = new API.AxConnectorServices.BerLgAxServicesTestServiceRequest();
             inValue.CallContext = CallContext;
-            API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXResponse retVal = ((API.AxConnectorServices.Ber_Lg_ServicesConnectorTest)(this)).getTextAX(inValue);
+            API.AxConnectorServices.BerLgAxServicesTestServiceResponse retVal = ((API.AxConnectorServices.BerLgAxServices)(this)).testService(inValue);
             return retVal.response;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXResponse> API.AxConnectorServices.Ber_Lg_ServicesConnectorTest.getTextAXAsync(API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXRequest request) {
-            return base.Channel.getTextAXAsync(request);
+        System.Threading.Tasks.Task<API.AxConnectorServices.BerLgAxServicesTestServiceResponse> API.AxConnectorServices.BerLgAxServices.testServiceAsync(API.AxConnectorServices.BerLgAxServicesTestServiceRequest request) {
+            return base.Channel.testServiceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXResponse> getTextAXAsync(API.AxConnectorServices.CallContext CallContext) {
-            API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXRequest inValue = new API.AxConnectorServices.Ber_Lg_ServicesConnectorTestGetTextAXRequest();
+        public System.Threading.Tasks.Task<API.AxConnectorServices.BerLgAxServicesTestServiceResponse> testServiceAsync(API.AxConnectorServices.CallContext CallContext) {
+            API.AxConnectorServices.BerLgAxServicesTestServiceRequest inValue = new API.AxConnectorServices.BerLgAxServicesTestServiceRequest();
             inValue.CallContext = CallContext;
-            return ((API.AxConnectorServices.Ber_Lg_ServicesConnectorTest)(this)).getTextAXAsync(inValue);
+            return ((API.AxConnectorServices.BerLgAxServices)(this)).testServiceAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        API.AxConnectorServices.BerLgAxServicesExecuteRequestResponse API.AxConnectorServices.BerLgAxServices.executeRequest(API.AxConnectorServices.BerLgAxServicesExecuteRequestRequest request) {
+            return base.Channel.executeRequest(request);
+        }
+        
+        public string executeRequest(API.AxConnectorServices.CallContext CallContext) {
+            API.AxConnectorServices.BerLgAxServicesExecuteRequestRequest inValue = new API.AxConnectorServices.BerLgAxServicesExecuteRequestRequest();
+            inValue.CallContext = CallContext;
+            API.AxConnectorServices.BerLgAxServicesExecuteRequestResponse retVal = ((API.AxConnectorServices.BerLgAxServices)(this)).executeRequest(inValue);
+            return retVal.response;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<API.AxConnectorServices.BerLgAxServicesExecuteRequestResponse> API.AxConnectorServices.BerLgAxServices.executeRequestAsync(API.AxConnectorServices.BerLgAxServicesExecuteRequestRequest request) {
+            return base.Channel.executeRequestAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<API.AxConnectorServices.BerLgAxServicesExecuteRequestResponse> executeRequestAsync(API.AxConnectorServices.CallContext CallContext) {
+            API.AxConnectorServices.BerLgAxServicesExecuteRequestRequest inValue = new API.AxConnectorServices.BerLgAxServicesExecuteRequestRequest();
+            inValue.CallContext = CallContext;
+            return ((API.AxConnectorServices.BerLgAxServices)(this)).executeRequestAsync(inValue);
         }
     }
 }
