@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="n0l8DJnxA+lVse8VqkAZYpHA3Gk=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="rIgB5u5Ubf9EvO6G1PYEfwDD7Bs=">
   <bindingConfigurations>
-    <bindingConfiguration bindingType="netTcpBinding" name="NetTcpBinding_Ber_Lg_ServicesConnectorTest">
+    <bindingConfiguration bindingType="netTcpBinding" name="NetTcpBinding_BerLgAxServices">
       <properties>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>NetTcpBinding_Ber_Lg_ServicesConnectorTest</serializedValue>
+          <serializedValue>NetTcpBinding_BerLgAxServices</serializedValue>
         </property>
         <property path="/closeTimeout" isComplexType="false" isExplicitlyDefined="true" clrType="System.TimeSpan, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -121,10 +121,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="NetTcpBinding_Ber_Lg_ServicesConnectorTest" contract="AxConnectorServices.Ber_Lg_ServicesConnectorTest" bindingType="netTcpBinding" address="net.tcp://vtdevaos:8201/DynamicsAx/Services/BerLgServicesConnectorTest" bindingConfiguration="NetTcpBinding_Ber_Lg_ServicesConnectorTest">
+    <endpoint name="NetTcpBinding_BerLgAxServices" contract="AxConnectorServices.BerLgAxServices" bindingType="netTcpBinding" address="net.tcp://vtdevaos:8201/DynamicsAx/Services/BerLgServicesConnector" bindingConfiguration="NetTcpBinding_BerLgAxServices">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>net.tcp://vtdevaos:8201/DynamicsAx/Services/BerLgServicesConnectorTest</serializedValue>
+          <serializedValue>net.tcp://vtdevaos:8201/DynamicsAx/Services/BerLgServicesConnector</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -133,10 +133,10 @@
           <serializedValue>netTcpBinding</serializedValue>
         </property>
         <property path="/bindingConfiguration" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>NetTcpBinding_Ber_Lg_ServicesConnectorTest</serializedValue>
+          <serializedValue>NetTcpBinding_BerLgAxServices</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>AxConnectorServices.Ber_Lg_ServicesConnectorTest</serializedValue>
+          <serializedValue>AxConnectorServices.BerLgAxServices</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -196,7 +196,7 @@
           <serializedValue>False</serializedValue>
         </property>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>NetTcpBinding_Ber_Lg_ServicesConnectorTest</serializedValue>
+          <serializedValue>NetTcpBinding_BerLgAxServices</serializedValue>
         </property>
         <property path="/kind" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

@@ -10,13 +10,13 @@ namespace API.Controllers
 {
     public class ValuesController : ApiController
     {
-        Ber_Lg_ServicesConnectorTestClient clientAX = new Ber_Lg_ServicesConnectorTestClient();
+        BerLgAxServicesClient clientAX = new BerLgAxServicesClient();
         CallContext callContext = new CallContext();
 
         [HttpGet]
         public string getValue()
         {
-            var text = clientAX.getTextAX(callContext);
+            var text = clientAX.testService(callContext);
             return text;
         }
     }

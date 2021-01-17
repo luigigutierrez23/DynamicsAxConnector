@@ -19,17 +19,17 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://VTDEVAOS:8101/DynamicsAx/Services/BerLgServicesConnectorTest" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://VTDEVAOS:8101/DynamicsAx/Services/BerLgServicesConnector" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="BerLgServicesConnectorTest.wsdl" MetadataType="Wsdl" ID="069a59f2-77b7-4d27-af79-9917e427376c" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnectorTest?wsdl=wsdl0" />
-    <MetadataFile FileName="BerLgServicesConnectorTest.xsd" MetadataType="Schema" ID="6562c6b8-0522-4821-b227-ec1776d9f8e1" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnectorTest?xsd=xsd1" />
-    <MetadataFile FileName="BerLgServicesConnectorTest1.xsd" MetadataType="Schema" ID="2404b2ab-adf3-479b-81c7-60ad724f0e6e" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnectorTest?xsd=xsd4" />
-    <MetadataFile FileName="BerLgServicesConnectorTest2.xsd" MetadataType="Schema" ID="6be2f3b8-03d5-4e1d-baa4-f9559b8c373e" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnectorTest?xsd=xsd5" />
-    <MetadataFile FileName="BerLgServicesConnectorTest3.xsd" MetadataType="Schema" ID="ade93543-41c4-4836-8041-b036f148d898" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnectorTest?xsd=xsd2" />
-    <MetadataFile FileName="BerLgServicesConnectorTest4.xsd" MetadataType="Schema" ID="1425fb25-0a80-4b69-be62-fc84754a58ab" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnectorTest?xsd=xsd3" />
-    <MetadataFile FileName="BerLgServicesConnectorTest5.xsd" MetadataType="Schema" ID="9cf967cd-b23e-4560-b5e9-0bf197a869ca" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnectorTest?xsd=xsd0" />
-    <MetadataFile FileName="BerLgServicesConnectorTest1.wsdl" MetadataType="Wsdl" ID="617626fc-e599-4745-9997-1b96a8142c18" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnectorTest" />
+    <MetadataFile FileName="BerLgServicesConnector.wsdl" MetadataType="Wsdl" ID="ed521c60-c821-4410-a5fe-558a37aae2fc" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnector" />
+    <MetadataFile FileName="BerLgServicesConnector.xsd" MetadataType="Schema" ID="77e8c131-4853-4333-96f4-76ff4683fd82" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnector?xsd=xsd2" />
+    <MetadataFile FileName="BerLgServicesConnector1.xsd" MetadataType="Schema" ID="ae50e315-6e22-4ca6-ac03-ff8b750c021e" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnector?xsd=xsd4" />
+    <MetadataFile FileName="BerLgServicesConnector1.wsdl" MetadataType="Wsdl" ID="46744d88-de09-44c3-9a0e-a3af973d7470" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnector?wsdl=wsdl0" />
+    <MetadataFile FileName="BerLgServicesConnector2.xsd" MetadataType="Schema" ID="bcb1a7ec-8c75-4ca2-ab8a-fb06ea246d7f" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnector?xsd=xsd1" />
+    <MetadataFile FileName="BerLgServicesConnector3.xsd" MetadataType="Schema" ID="40e7ba8d-5af6-46fc-91b5-c50d99c55591" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnector?xsd=xsd3" />
+    <MetadataFile FileName="BerLgServicesConnector4.xsd" MetadataType="Schema" ID="f5d58ab1-32fb-48f5-9ee2-2798f575a923" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnector?xsd=xsd5" />
+    <MetadataFile FileName="BerLgServicesConnector5.xsd" MetadataType="Schema" ID="b5634483-d534-455a-92f0-8de92513a7d2" SourceId="1" SourceUrl="http://vtdevaos:8101/DynamicsAx/Services/BerLgServicesConnector?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
